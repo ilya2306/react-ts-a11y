@@ -19,7 +19,7 @@ In some accordions, there are additional elements that are always visible adjace
   - When focus is on the accordion header for an expanded panel, collapses the panel if the implementation supports collapsing. Some implementations require one panel to be expanded at all times and allow only one panel to be expanded; so, they do not support a collapse function.
 
 - <kbd>Tab</kbd>: Moves focus to the next focusable element; all focusable elements in the accordion are included in the page <kbd>Tab</kbd> sequence.
-- <kbd>Shift + Tab</kbd>: Moves focus to the previous focusable element; all focusable elements in the accordion are included in the page Tab sequence.
+- <kbd>Shift + Tab</kbd>: Moves focus to the previous focusable element; all focusable elements in the accordion are included in the page <kbd>Tab</kbd> sequence.
 - <kbd>Down Arrow</kbd> (Optional): If focus is on an accordion header, moves focus to the next accordion header. If focus is on the last accordion header, either does nothing or moves focus to the first accordion header.
 - <kbd>Up Arrow</kbd> (Optional): If focus is on an accordion header, moves focus to the previous accordion header. If focus is on the first accordion header, either does nothing or moves focus to the last accordion header.
 - <kbd>Home</kbd> (Optional): When focus is on an accordion header, moves focus to the first accordion header.

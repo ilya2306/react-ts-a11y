@@ -1,0 +1,29 @@
+.Accordion-content {
+    will-change: max-height;
+}
+
+.Accordion-content-enter {
+    opacity: 0;
+    max-height: 0;
+}
+
+.Accordion-content-enter-active {
+    opacity: 1;
+    transition: opacity 200ms, max-height 200ms;
+    max-height: 100vh;
+}
+
+.Accordion-content-enter-done {
+    max-height: 100vh;
+}
+
+.Accordion-content-exit {
+    opacity: 1;
+    max-height: 100vh;
+}
+
+.Accordion-content-exit-active {
+    opacity: 0;
+    transition: opacity 200ms, max-height 200ms;
+    max-height: 0;
+}
